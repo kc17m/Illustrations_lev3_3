@@ -57,6 +57,10 @@ header nav {
     margin: 1% 0% 0% 95%;
 }
 
+header a {
+    color: black;
+}
+
 header li {
     display: inline-block;
 }
@@ -88,9 +92,14 @@ main article {
 }
 
 /* first 3 inmages */
-img:nth-of-type(1), img:nth-of-type(2), img:nth-of-type(3) {
+main section:nth-of-type(1) article:nth-of-type(odd) img {
     width: 45%;
     margin: 0 0 0 16%;
+}
+
+main section:nth-of-type(1) article:nth-of-type(even) img {
+    width: 45%;
+    margin: 0 16% 0 0;
 }
 
 section article div {
