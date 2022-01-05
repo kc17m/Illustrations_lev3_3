@@ -27,12 +27,12 @@ main, footer {
 }
 
 header, footer {    
-    margin: 1% 10% % 20%;
+    margin: 1% 0 0 5%;
     
    }
 
 main {
-    margin: 0% 0% 0% 20%;
+    margin: 0% 0% 0% 5%;
 }
 
 header {
@@ -54,7 +54,7 @@ a {
 
 header nav {
     width: 60%;
-    margin: 1% 0% 0% 95%;
+    margin: 1% 0% 0% 85%;
 }
 
 header a {
@@ -69,7 +69,7 @@ header li {
 
 h1, h2 {
     font-size: 2.8em;
-    margin: 0.5em 0 ;
+    margin: 0.7em 0 ;
 }
 
 p {
@@ -87,11 +87,12 @@ main section:nth-of-type(1)  {
 main article {
     height: 95vh;
     width: 100%;
+    margin: 0 0 5% 0;
      
     
 }
 
-/* first 3 inmages */
+/* first 3 images */
 main section:nth-of-type(1) article:nth-of-type(odd) img {
     width: 45%;
     margin: 0 0 0 16%;
@@ -104,9 +105,9 @@ main section:nth-of-type(1) article:nth-of-type(even) img {
 
 section article div {
     width: 30vw;
-    height: 95vh;
-    padding: 6% 0 0% 1%;
+    height: 30vh;
     display: inline-block;
+    margin: 0 0 0 0;
  
 }
 
@@ -198,6 +199,7 @@ h2, h3 {
     text-align: center;
 }
 
+
 main section:nth-of-type(3) img {
     width: 28vw;
     margin: 1%;
@@ -208,6 +210,76 @@ main section:nth-of-type(3) div {
     width: 95%;
     margin: 0 auto; 
     padding: 2% 1% 0 0 ;
+}
+
+
+main section:nth-of-type(4) article {
+    width: 25%;
+    margin: 2% auto;
+    text-align: center;
+    background: #F5FBFE;
+    height: 40%;
+    padding: 2%;
+}
+
+main section:nth-of-type(4) article a {
+    color: white;
+    background: #24bff2;
+    width: 80%;
+    margin: 4% 0 0 4%;
+    height: 2%;
+    display: inline-block;
+    padding: 4% 6%;
+    border-radius: 5%;;
+    
+}
+
+main section:nth-of-type(4) article h3:nth-of-type(2) {
+    color: grey;
+    padding: 0 0 5% 0;
+}
+
+main section:nth-of-type(4) article p {
+    font-size: 0.9em;
+}
+
+
+
+
+footer {
+    text-align: center;
+    line-height: 2em;
+    
+}
+
+footer h2 {
+    margin: 7% auto 4%;
+}
+
+footer p {
+    color: #84959e;
+    
+}
+
+footer a {
+    color: black;
+}
+
+i {
+    padding: 0.5%;
+    font-size: 1.2em;
+}
+
+.fa-facebook {
+    color: #3b5998
+    }
+.fa-instagram {
+    color: fcaf45;
+}
+.fa-twitter {
+    color: #55acee;}
+.fa-youtube {
+    color: #c4302b;
 }
 
 
