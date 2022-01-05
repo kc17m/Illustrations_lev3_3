@@ -1,0 +1,158 @@
+/* Font: Merriweather, Lato
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(/assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+
+main, footer {
+    font-family: Merriweather;
+}
+
+header, footer {    
+    margin: 1% 10% % 20%;
+    
+   }
+
+main {
+    margin: 0% 0% 0% 20%;
+}
+
+header {
+    font-family: Lato;
+    text-transform: uppercase;
+    color: #202020;    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+/* header */
+
+header nav {
+    width: 60%;
+    margin: 1% 0% 0% 95%;
+}
+
+header li {
+    display: inline-block;
+}
+
+/* main */
+
+h1 {
+    font-size: 2.8em;
+    margin: 0.5em 0 ;
+}
+
+p {
+    font-size: 1em;
+    margin: 0.5em 0;
+    line-height: 1.5em;
+
+}
+
+main section {
+    height: 300vh;
+    
+}
+
+main article {
+    height: 95vh;
+    width: 100%;
+     
+    
+}
+
+/* first 3 inmages */
+img:nth-of-type(1), img:nth-of-type(2), img:nth-of-type(3) {
+    width: 45%;
+    margin: 0 0 0 16%;
+}
+
+section article div {
+    width: 30vw;
+    height: 95vh;
+    padding: 6% 0 0% 1%;
+    display: inline-block;
+ 
+}
+
+main ul li {
+    display: inline-block;
+    width: 25%;
+    margin: 2% ;
+    padding: 1.5%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main ul li:nth-of-type(1) {
+    background-color: #202020;
+    
+}
+
+main ul li:nth-of-type(1) a {
+    color: white;
+}
+
+main ul li:nth-of-type(2) {
+    background-color: white;
+    
+}
+
+main ul li:nth-of-type(2) a {
+    color:#202020;
+}
+/* hover  */
+main ul li:nth-of-type(1):hover {
+    background-color: white;
+    
+}
+
+main ul li:nth-of-type(1):hover a {
+    color: black;
+}
+
+main ul li:nth-of-type(2):hover {
+    background-color: black;
+    
+}
+
+main ul li:nth-of-type(2):hover a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
