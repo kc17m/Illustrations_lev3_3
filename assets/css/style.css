@@ -107,14 +107,18 @@ section article div {
     width: 30vw;
     height: 30vh;
     display: inline-block;
-    margin: 0 0 0 0;
+   
  
+}
+
+main ul {
+    margin: 0 5%;
 }
 
 main ul li {
     display: inline-block;
     width: 25%;
-    margin: 2% ;
+    margin: 5% ;
     padding: 1.5%;
     text-align: center;
     border: 1px solid black;
@@ -180,7 +184,7 @@ main section:nth-of-type(2) article:nth-of-type(1) img {
 }
 
 main section:nth-of-type(2) article:nth-of-type(1) img:hover {    
-    box-shadow: 1px 1px 25px #646262; 
+    box-shadow: 1px 1px 25px #eceae7; 
 }
 
 main section:nth-of-type(3) {
@@ -205,6 +209,13 @@ main section:nth-of-type(3) img {
     margin: 1%;
     
 }
+
+main section:nth-of-type(3) img:hover {
+    box-shadow: 1px 1px 25px #eceae7;  
+    
+}
+
+
 
 main section:nth-of-type(3) div {
     width: 95%;
